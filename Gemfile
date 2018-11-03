@@ -14,7 +14,7 @@ gem 'haml-rails'
 gem 'erb2haml'
 gem 'bootstrap-sass'
 gem 'devise'
-gem 'carrierwave'
+gem 'carrierwave', '~> 1.0'
 gem 'rmagick'
 
 group :development, :test do
@@ -30,3 +30,4 @@ gem 'sqlite3', group: :development
 gem 'pg', '~> 0.19.0', group: :production
 gem 'thin', group: :production
 gem 'rails_12factor', group: :production
+gem 'fog-aws', group: :production
